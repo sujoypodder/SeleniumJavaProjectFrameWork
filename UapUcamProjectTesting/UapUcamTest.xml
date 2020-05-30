@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.uapucam.utilities.ExtentReportFile" />
+	</listeners>
+	<test name="Test">
+		<!-- <parameter name="browser" value="firefox" /> -->
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- <class name="com.uapucam.testcase.TC_Login_001" /> -->
+			<!-- <class name="com.uapucam.testcase.TC_DD_Login_002" /> -->
+			<!-- <class name="com.uapucam.testcase.TC_admit_003" /> -->
+			<!-- <class name="com.uapucam.testcase.TC_BillPayment_004" /> -->
+			<!-- <class name="com.uapucam.testcase.TC_CUPassword_005" /> -->
+			<!-- <class name="com.uapucam.testcase.TC_Registration_006" /> -->
+			<!-- <class name="com.uapucam.testcase.TC_Evaluation_007" /> -->
+			<!-- <class name="com.uapucam.testcase.TC_Result_008" /> -->
+			<class name="com.uapucam.testcase.TC_Information_009" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

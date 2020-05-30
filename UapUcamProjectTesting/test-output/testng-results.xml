@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20162" started-at="2020-05-24T00:03:31 BDT" finished-at="2020-05-24T00:03:51 BDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20162" started-at="2020-05-24T00:03:31 BDT" finished-at="2020-05-24T00:03:51 BDT">
+      <class name="com.uapucam.testcase.TC_Information_009">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.uapucam.testcase.TC_Information_009@58c1670b]" name="setup" is-config="true" duration-ms="7755" started-at="2020-05-24T00:03:31 BDT" finished-at="2020-05-24T00:03:39 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="infoData()[pri:0, instance:com.uapucam.testcase.TC_Information_009@58c1670b]" name="infoData" duration-ms="8483" started-at="2020-05-24T00:03:39 BDT" finished-at="2020-05-24T00:03:47 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.uapucam.testcase.TC_Information_009@58c1670b]" name="teardown" is-config="true" duration-ms="3740" started-at="2020-05-24T00:03:47 BDT" finished-at="2020-05-24T00:03:51 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.uapucam.testcase.TC_Information_009 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
